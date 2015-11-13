@@ -1,0 +1,328 @@
+html, body{
+	height: 100%;
+  background-color: #EEE !important;
+}
+
+p, h4, h5, h6{
+  font-size: 1.2em !important;
+}
+
+body
+{
+	/*background-color: rgb(255 ,204,51);*/
+	font-family:  "Trade Gothic W01 Roman", serif !important;
+
+	padding-bottom: 20px;
+}
+
+nav, nav li a, nav li form label, nav li form li, nav .dropdown form li, .top-bar-section ul li{
+  background-color: #d6d4c5 !important;
+  color: rgb(216,1,19) !important;
+}
+
+nav li.active a{
+  color: black !important;
+  background-color: rgb(216,1,19) !important;
+}
+nav form{
+  display: block;
+  /*position: static;*/
+  /*overflow: hidden;*/
+}
+.dropdown li{
+  display: block;
+  height: auto;
+  margin-bottom: 10px;
+  /*overflow: hidden;*/
+}
+
+.dropdown:last-child()
+{
+  padding-bottom: 3px;
+}
+
+.container{
+  margin-top: 20px;
+}
+
+.custom-file-input {
+  color: transparent;
+}
+.custom-file-input::-webkit-file-upload-button {
+  visibility: hidden;
+}
+.custom-file-input::before {
+  content: 'Select your picture';
+  color: black;
+  display: inline-block;
+  background: -webkit-linear-gradient(top, #f9f9f9, #e3e3e3);
+  border: 1px solid #999;
+  border-radius: 3px;
+  padding: 5px 8px;
+  outline: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+  text-shadow: 1px 1px #fff;
+  font-weight: 700;
+  font-size: 10pt;
+}
+.custom-file-input:hover::before {
+  border-color: black;
+}
+.custom-file-input:active {
+  outline: 0;
+}
+.custom-file-input:active::before {
+  background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9); 
+}
+
+@font-face{
+    font-family: seagram; src: url('../font/Seagram tfb.ttf');
+}
+
+h1,h2,h3, .navbar-header a {
+  font-family: seagram !important;
+  color: rgb(216,1,19) !important;
+  font-size: 2em;
+}
+
+input[type="text"]{
+  margin-bottom: 0 !important;
+}
+
+.navbar.navbar-default li a, .navbar.navbar-default li label{
+  color: rgb(216,1,19);
+}
+
+img{
+	max-width: 100%;
+}
+
+.center{
+	text-align: center;
+}
+
+/*LOGIN PAGINA*/
+/* line 162, ../scss/main.scss */
+.loginbox {
+  background-color: #fff!important;
+  border-radius: 0!important;
+  border: none!important;
+}
+
+/* line 168, ../scss/main.scss */
+.loginbox.loginboxinner {
+  width: 100%;
+  min-height: 250px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 10px;
+}
+
+.loginbox.loginboxinner img{
+	max-height: 212px;
+}
+
+/* line 173, ../scss/main.scss */
+.loginbox.loginboxinner legend {
+  font-size: 26px;
+  text-align: center;
+  font-weight: 300;
+  padding-top: 2px;
+}
+
+/* line 179, ../scss/main.scss */
+.loginbox.loginboxinner label {
+  font-weight: 300;
+  font-size: 16px;
+}
+
+/* line 184, ../scss/main.scss */
+.loginbox.loginboxinner input {
+  box-shadow: none;
+  border-color: #ddd;
+  border-radius: 0;
+}
+
+/* line 190, ../scss/main.scss */
+.loginbox.welcome-text {
+  font-size: 21px;
+}
+
+/* line 194, ../scss/main.scss */
+.loginbox .btn {
+  background-color: rgb(216,1,19);
+  border: #C1D82F;
+  color: black;
+  text-align: center;
+  border-radius: 4px !important;
+  vertical-align: middle;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+/* line 200, ../scss/main.scss */
+.loginbox .btnreg {
+  box-shadow: none;
+  border-color: #ddd;
+  border-radius: 0;
+}
+
+/* line 206, ../scss/main.scss */
+.btnstyle {
+  border-radius: 0 !important;
+  width: 10em;
+}
+
+/* line 211, ../scss/main.scss */
+.loginbox form {
+  padding: 17px;
+}
+
+/* line 215, ../scss/main.scss */
+.loginbox .centerbuttons {
+  width: 154px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  padding-top: 10px;
+}
+
+.loginboxdouble{
+
+}
+
+/* line 222, ../scss/main.scss */
+.loginbox .btn:hover {
+  background-color: #DDD;
+  color: rgb(216,1,19);
+}
+
+/*BOX SHADOWWWWWWWW*/
+/* line 231, ../scss/main.scss */
+.loginboxshadow {
+  position: relative;
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+/* line 238, ../scss/main.scss */
+.loginboxshadow:before, .loginboxshadow:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+  -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+  top: 50%;
+  bottom: 0;
+  left: 10px;
+  right: 10px;
+  -moz-border-radius: 100px/10px;
+  border-radius: 100px/10px;
+}
+
+/* line 253, ../scss/main.scss */
+.loginboxshadow:after {
+  right: 10px;
+  left: auto;
+  -webkit-transform: skew(8deg) rotate(3deg);
+  -moz-transform: skew(8deg) rotate(3deg);
+  -ms-transform: skew(8deg) rotate(3deg);
+  -o-transform: skew(8deg) rotate(3deg);
+  transform: skew(8deg) rotate(3deg);
+}
+
+.item{
+	text-align: center;
+}
+
+.item div{
+  /*width: 300px;*/
+  height: 170px;
+  overflow: hidden;
+}
+.thumbnail {
+  overflow: hidden;
+}
+
+.managment{
+	display: table;
+	height: 100px;
+	/*width: 100%*/
+}
+
+.managment div{
+	display: table-cell;
+	/*height: 100px,;*/
+	vertical-align: middle;
+}
+
+.vote{
+	/*display: inline;*/
+	position: absolute;
+	top: 80px;
+	left: 90px;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	text-align: center;
+	margin: 0 auto;
+	background-position: center;
+	background-repeat: no-repeat;
+	/*background-color: white;*/
+	visibility: hidden;
+}
+
+.vote.newVote{
+	
+	background-size: 45px 80px;
+	background-image: url('../img/DuvelGlass.png');
+}
+
+.vote.unvote{
+	
+	background-size: 55px 80px;
+	background-image: url('../img/emptyDuvelGlass.png');
+}
+
+.competitor:hover .vote{
+	visibility: visible;
+}
+
+
+.lower-top{
+	margin-top: 100px;
+}
+
+h1{
+	color: rgb(216, 1, 19);
+}
+
+.logo{
+	max-width: 25%;
+	margin-top: -20px;
+}
+
+.playNow{
+	background-color: rgb(216,1,19);
+}
+
+.playNow a{
+	display: block;
+	color: rgb(220,220,220);
+}
+
+.managmentItem{
+	position: relative;
+}
+
+.deleted{
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,.3);
+}
